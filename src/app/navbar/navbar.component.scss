@@ -1,0 +1,67 @@
+h1{
+  margin: 0;
+  color: #989799;
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+//@include media-breakpoint-up(sm) {
+@media (min-width: 768px) {
+  //h1:after {
+  //  content: '';
+  //  height: 50%; //You can change this if you want smaller/bigger borders
+  //  width: 1px;
+  //
+  //  position: absolute;
+  //  right: 0;
+  //  top: 9px; // If you want to set a smaller height and center it, change this value
+  //
+  //  background-color: #000000; // The color
+  //}
+  .navbar-second-row {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
+  .collapse {
+    ul, h1 {
+      align-self: center;
+    }
+    ul {
+      text-transform: uppercase;
+    li{
+      margin-right: 15px;
+      font-size: 0.9em;
+    }
+    }
+
+  }
+  //ul {
+  //
+  //  li {
+  //    text-transform: uppercase;
+  //    position: relative;
+  //    margin-right: 12px;
+  //    padding-right: 9px;
+  //  }
+  //  li:after {
+  //    content: '';
+  //    height: 50%; //You can change this if you want smaller/bigger borders
+  //    width: 1px;
+  //
+  //    position: absolute;
+  //    right: 0;
+  //    top: 9px; // If you want to set a smaller height and center it, change this value
+  //
+  //    background-color: #000000; // The color of your border
+  //  }
+  //  li:last-child:after {
+  //    display: none;
+  //  }
+  //}
+}
+
+//}
+
+
+
+
