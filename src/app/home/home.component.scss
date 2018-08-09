@@ -2,4 +2,13 @@
   margin: auto;
   border: solid 20px white;
   width: 65%;
+
+}
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }

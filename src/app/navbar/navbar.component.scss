@@ -1,6 +1,10 @@
 h1 {
   display: none;
 }
+ul, li {
+  z-index: 100;
+  background-color: #F8F9FA;
+}
 
 //@include media-breakpoint-up(sm) {
 @media (min-width: 768px) {
