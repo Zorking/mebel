@@ -1,10 +1,25 @@
 @import '~@angular/material/prebuilt-themes/purple-green.css';
 /*@import '~bootstrap/scss/bootstrap-grid.scss';*/
 /*@import '~bootstrap/scss/mixins';*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   font-size: 1.3em;
   font-family: Georgia, serif;
   color: #676767;
   background-color: #F8F9FA !important;
+  text-align: center;
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
